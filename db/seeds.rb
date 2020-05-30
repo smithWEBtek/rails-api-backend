@@ -5,7 +5,7 @@
 #
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
-Note.create(body: 'This is fun')
-Note.create(body: 'We just got a new dog')
-Note.create(body: 'When is lunch?')
-Note.create(body: 'Code every day')
+Note.create( title: 'First Date', body: 'This is fun')
+Note.create( title: 'First Pet', body: 'We just got a new dog')
+Note.create( title: 'Second Meal', body: 'When is lunch?')
+Note.create( title: 'Life Thought', body: 'Code every day')
